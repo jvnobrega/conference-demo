@@ -1,0 +1,8 @@
+db:
+  url: jdbc:mysql://localhost:3306/conference_demo
+  username: conference_user
+  password: conference_pass
+
+logging:
+  level:
+    org: WARN
