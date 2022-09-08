@@ -1,4 +1,0 @@
-db:
-  url: jdbc:postgresql://localhost:5432/conference_demo
-  username: conference_user
-  password: conference_pass

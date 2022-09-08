@@ -1,8 +1,8 @@
 db:
-  url: jdbc:postgresql://localhost:5432/conference_demo
-  username: conference_user
-  password: conference_pass
+  url: ${DB_URL}
+  username: ${DB_USER_NAME}
+  password: ${DB_USER_PASSWORD}
 
 logging:
   level:
-    org: WARN
+    com.pluralsight: INFO
