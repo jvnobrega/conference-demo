@@ -1,5 +1,5 @@
 db:
-  url: jdbc:mysql://localhost:3306/conference_demo
+  url: jdbc:postgresql://localhost:5432/conference_demo
   username: conference_user
   password: conference_pass
 

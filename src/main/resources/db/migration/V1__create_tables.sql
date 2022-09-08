@@ -96,7 +96,7 @@ CREATE TABLE speakers
     title         varchar(40)   NOT NULL,
     company       varchar(50)   NOT NULL,
     speaker_bio   varchar(2000) NOT NULL,
-    speaker_photo BLOB   		NULL
+    speaker_photo bytea         NULL
 );
 
 CREATE TABLE session_speakers
